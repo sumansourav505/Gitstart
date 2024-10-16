@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       const li = document.createElement("li");
       li.classList.add("fruit");
-      li.innerHTML = `${fruitName} <button class="delete-btn">x</button>`;
+      li.innerHTML = `${fruitName} <button class="delete-btn">x</button><button class="edit-btn">Edit</button>`;
       const p = document.createElement("p");
       p.style.fontStyle = "italic"; 
       p.textContent = fruitDescription;
@@ -63,5 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   
     });
+  
   });
   

@@ -1,8 +1,8 @@
 function handleFormSubmit(event){
     event.preventDefault();
-    const name = document.getElementById('username').value;
-    const email = document.getElementById('email').value;
-    const phoneNumber = document.getElementById('phone').value;
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('mail').value;
+    const phoneNumber = document.getElementById('phno').value;
     const userDetails = {
         name: name,
         email: email,
