@@ -8,7 +8,6 @@ function handleFormSubmit(event){
         email: email,
         phoneNumber: phoneNumber,
     };
-    localStorage.setItem("UserDetails", JSON.stringify(userDetails));
+    localStorage.setItem("User Details", JSON.stringify(userDetails));
     console.log("User Details stored in localStorage:", userDetails);
 }
-window.handleFormSubmit = handleFormSubmit;
